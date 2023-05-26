@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(127, 255, 212, 0.682);
+}
+a{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.362);
+}
+#quantity{
+    width: 20px;
+}
+footer{
+    width: 100vw;
+    height: 235px;
+    background-color: rgba(0, 0, 0, 0.803);
+}
+table{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.362);
+    padding: 20px;
+}
+
